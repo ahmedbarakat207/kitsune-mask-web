@@ -1,0 +1,32 @@
+body {
+    background-color: #0f0f11;
+    color: #ffffff;
+}
+        
+.glass-nav {
+    background: rgba(15, 15, 17, 0.8);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.hero-gradient {
+    background: radial-gradient(circle at center, rgba(156, 34, 33, 0.15) 0%, rgba(163, 31, 31, 0) 70%);
+}
+
+.feature-card {
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    border-color: #c71616;
+    background-color: #27272a;
+    box-shadow: 0 10px 30px -10px rgba(249, 115, 22, 0.2);
+}
+
+.text-gradient {
+    background: linear-gradient(to right, #c71616, #a31f1f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

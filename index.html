@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitsune Mask - Advanced Android Rooting</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script src="scripts.js"></script>
+
+    <style>
+        
+    </style>
+</head>
+<body class="antialiased selection:bg-kitsune-500 selection:text-white">
+
+    <nav class="fixed w-full z-50 glass-nav transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-gradient-to-br from-kitsune-500 to-red-600 rounded-full flex items-center justify-center text-white text-xl">
+                        <img src="logo.png">
+                    </div>
+                    <span class="font-bold text-xl tracking-tight">Kitsune Mask</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="hover:text-kitsune-500 transition-colors px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="#features" class="hover:text-kitsune-500 transition-colors px-3 py-2 rounded-md text-sm font-medium">Features</a>
+                        <a href="#download" class="bg-white text-black hover:bg-gray-200 px-4 py-2 rounded-full text-sm font-bold transition-colors">Download</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden hero-gradient">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-kitsune-500/10 border border-kitsune-500/20 text-kitsune-500 text-sm font-semibold mb-8">
+                <span class="relative flex h-2 w-2">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-kitsune-400 opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-2 w-2 bg-kitsune-500"></span>
+                </span>
+                Updated to v30.6
+            </div>
+
+            <h1 class="text-5xl md:text-7xl font-black tracking-tight mb-6">
+                The Evolution of <br>
+                <span class="text-gradient">Root Management</span>
+            </h1>
+            
+            <p class="mt-4 max-w-2xl mx-auto text-xl text-gray-400">
+                A powerful Magisk fork featuring Material 3 design, advanced SuList logic, and robust bootloop protection. Control your device like never before.
+            </p>
+
+            <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#download" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full text-white bg-kitsune-600 hover:bg-kitsune-500 md:text-lg transition-all shadow-lg shadow-kitsune-500/20">
+                    <i class="fa-solid fa-download mr-2"></i> Download v30.6
+                </a>
+                <a href="https://t.me/KitsuneUfork" target="_blank" class="inline-flex items-center justify-center px-8 py-4 border border-gray-700 text-base font-medium rounded-full text-gray-300 bg-cardbg hover:bg-gray-800 md:text-lg transition-all">
+                    <i class="fa-brands fa-telegram mr-2"></i> Join Telegram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-20 bg-darkbg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-white sm:text-4xl">Under the Mask</h2>
+                <p class="mt-4 text-gray-400">Packed with exclusive features not found in standard builds.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <div class="feature-card bg-cardbg p-8 rounded-2xl">
+                    <div class="w-12 h-12 bg-kitsune-500/20 rounded-lg flex items-center justify-center text-kitsune-500 mb-4">
+                        <i class="fa-solid fa-palette text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Material 3 Design</h3>
+                    <p class="text-gray-400">A completely redesigned UI following the latest Android Material 3 guidelines for a sleek experience.</p>
+                </div>
+
+                <div class="feature-card bg-cardbg p-8 rounded-2xl">
+                    <div class="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center text-purple-400 mb-4">
+                        <i class="fa-solid fa-user-secret text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Enhanced Hide</h3>
+                    <p class="text-gray-400">Superior detection avoidance with a new random package name generator and stealth mechanisms.</p>
+                </div>
+
+                <div class="feature-card bg-cardbg p-8 rounded-2xl">
+                    <div class="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center text-blue-400 mb-4">
+                        <i class="fa-solid fa-list-check text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">New SuList Logic</h3>
+                    <p class="text-gray-400">An improved whitelist approach to root management, ensuring only trusted apps get access.</p>
+                </div>
+
+                <div class="feature-card bg-cardbg p-8 rounded-2xl">
+                    <div class="w-12 h-12 bg-red-500/20 rounded-lg flex items-center justify-center text-red-400 mb-4">
+                        <i class="fa-solid fa-shield-halved text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Bootloop Protection</h3>
+                    <p class="text-gray-400">Safety first. Built-in mechanisms to detect and recover from module-induced bootloops automatically.</p>
+                </div>
+
+                <div class="feature-card bg-cardbg p-8 rounded-2xl">
+                    <div class="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center text-green-400 mb-4">
+                        <i class="fa-solid fa-box-open text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Module Management</h3>
+                    <p class="text-gray-400">Bulk install modules, perform backups, and restore your setup with a single click.</p>
+                </div>
+
+                <div class="feature-card bg-cardbg p-8 rounded-2xl">
+                    <div class="w-12 h-12 bg-yellow-500/20 rounded-lg flex items-center justify-center text-yellow-400 mb-4">
+                        <i class="fa-solid fa-globe text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Extended WebUI</h3>
+                    <p class="text-gray-400">Includes an extended WebUI engine and an online module search to find tools instantly.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="py-24 relative overflow-hidden">
+        <div class="absolute inset-0 bg-kitsune-600/10"></div>
+        <div class="max-w-4xl mx-auto px-4 relative z-10 text-center">
+            <h2 class="text-3xl md:text-5xl font-bold mb-8">Ready to upgrade?</h2>
+            <div class="bg-cardbg border border-gray-700 rounded-3xl p-8 max-w-lg mx-auto shadow-2xl">
+                <div class="flex items-center justify-between mb-6 border-b border-gray-700 pb-4">
+                    <span class="text-gray-400">Release Version</span>
+                    <span class="text-white font-mono font-bold bg-gray-700 px-2 py-1 rounded">v30.6</span>
+                </div>
+                
+                <ul class="text-left text-gray-300 space-y-3 mb-8">
+                    <li class="flex items-center"><i class="fa-solid fa-check text-kitsune-500 mr-3"></i> Independent Module Installer</li>
+                    <li class="flex items-center"><i class="fa-solid fa-check text-kitsune-500 mr-3"></i> Updated Magisk Core</li>
+                    <li class="flex items-center"><i class="fa-solid fa-check text-kitsune-500 mr-3"></i> New Package Name</li>
+                </ul>
+                <a href="https://t.me/KitsuneUfork/21">
+                <button class="w-full bg-white text-black font-bold py-4 rounded-xl hover:scale-105 transition-transform flex items-center justify-center text-lg">
+                    <i class="fa-brands fa-android text-green-600 mr-2 text-xl"></i> Download APK
+                </button>
+                </a>
+                <p class="mt-4 text-xs text-gray-500">Requires Android 5.0+</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center gap-2 mb-4 md:mb-0">
+            <img src="logo.png" style="width: 35px;">    
+            <span class="font-bold text-lg">Kitsune Mask</span>
+            </div>
+            
+            <div class="flex space-x-6">
+                <a href="#" class="text-gray-400 hover:text-white transition-colors"><i class="fa-brands fa-telegram text-xl"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white transition-colors"><i class="fa-solid fa-globe text-xl"></i></a>
+            </div>
+        </div>
+        <div class="text-center mt-8 text-gray-600 text-sm">
+            &copy; 2026 Kitsune Mask Project. Not affiliated with Google or TopJohnWu.
+        </div>
+    </footer>
+
+</body>
+</html>
